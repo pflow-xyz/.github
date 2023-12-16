@@ -1,13 +1,11 @@
 # pFlow-dev
+Tools to build and use petri-net models in go, js, python, lua, solidity
 
 - https://pflow.dev/ - website
 - https://pflow.dev/p/ - model editor
 - https://pflow.dev/sandbox/ - javascript sandbox
 
-## Introduction
-
-This github organization contains all the repositories related
-to the development of a petri-net based smart contract language.
+- WIP: web3 support in solidity + ipfs
 
 ## Reference Specification
 * [pflow-js](https://github.com/pFlow-dev/pflow-js) - a javascript library
