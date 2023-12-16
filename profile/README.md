@@ -34,7 +34,7 @@ store and retrieve petri-net based smart contracts.
 Petri nets are a well known and well studied formalism that
 can be used to model a wide variety of systems.
 
-Petri nets are a natural fit for smart contract development
+Petri nets are a natural fit for model development
 because they are:
 
 * simple
@@ -42,7 +42,3 @@ because they are:
 * composable
 * verifiable
 
-## Why Solidity?
-
-Solidity is a natural fit for petri-net based smart contract due to the wide 
-availability of tooling and the large developer community.
