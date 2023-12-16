@@ -10,14 +10,13 @@ This github organization contains all the repositories related
 to the development of a petri-net based smart contract language.
 
 ## Reference Specification
-
-* pflow.js - a javascript library
+* [pflow-js](https://github.com/pFlow-dev/pflow-js) - a javascript library
   * usable from the browser
-  * considered to the reference implementation
+  * considered to the *reference implementation*
    
-* metamodel-js - a typescript library
+* [metamodel-js](https://github.com/pFlow-dev/metamodel-js) - a typescript library
   * usable from npm
-  * meant to conform to the reference implementation
+  * conforms to the reference implementation
 
 ## Current Focus
 
