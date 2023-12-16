@@ -1,8 +1,8 @@
 # pFlow-dev
 
-https://pflow.dev/ - the pFlow website
-https://pflow.dev/p/ - the pFlow editor
-https://pflow.dev/sandbox/ - the pFlow code sandbox
+- https://pflow.dev/ - the pFlow website
+- https://pflow.dev/p/ - the pFlow model editor
+- https://pflow.dev/sandbox/ - the pFlow js code sandbox
 
 ## Introduction
 
