@@ -1,7 +1,6 @@
 # pFlow-dev
 Tools to build and use petri-net models in go, js, python, lua, solidity
 
-- https://pflow.dev/ - website
 - https://pflow.dev/p/ - model editor
 - https://pflow.dev/sandbox/ - javascript sandbox
 
