@@ -1,11 +1,9 @@
 # pFlow-dev
-Tools to build and use petri-net models in go, js, python, lua, solidity
+Tools to build and use Petri-net models in go, js, python, lua, solidity
 
-- https://pflow.dev/p/ - model editor
-- https://pflow.dev/sandbox/ - javascript sandbox
-- WIP: web3 support in solidity + ipfs
-
-  <img width="991" alt="Screenshot 2023-12-20 at 6 32 57 PM" src="https://github.com/pFlow-dev/.github/assets/243500/04be1793-f86d-4ff0-bcb4-5830e8891de6">
+- https://pflow.dev/p/ - model editor: build Petri-nets in the browser
+- https://pflow.dev/sandbox/ - javascript sandbox: edit Petri-nets as javascript
+- WIP: pflow.eth web3 support in solidity - compose contracts with petri-nets
 
 
 ## Reference Specification
