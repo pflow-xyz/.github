@@ -5,7 +5,7 @@ Tools to build and use Petri-net models in go, js, python, lua, solidity
 - https://pflow.dev/sandbox/ - javascript sandbox: edit Petri-nets as javascript
 - WIP: pflow.eth web3 support in solidity - compose contracts with petri-nets
 
-![inhibitorTest model](https://pflow.dev/img/zb2rhYVKTeeQvhCDPJT93qz3jdzGpBCQVkW4xrkzAFCq3ZxMV.svg)
+[![pflow](https://pflow.dev/img/zb2rhbTbnh91JKf2y7DH4FYfKq7gZ4F82LXXjhLSieZeM7yt4.svg)](https://pflow.dev/p/zb2rhbTbnh91JKf2y7DH4FYfKq7gZ4F82LXXjhLSieZeM7yt4/)
 
 ## Reference Specification
 * [pflow-js](https://github.com/pFlow-dev/pflow-js) - a javascript library
