@@ -1,5 +1,10 @@
 # pFlow-dev
-Tools to build and use Petri-net models in go, js, python, lua, solidity
+
+Turning static diagrams into dynamic narratives of change.
+
+## Tools
+
+We provide tools to build and use Petri-net models in go, js, python, lua, solidity
 
 - https://pflow.dev/p/ - model editor: build Petri-nets in the browser
 - https://pflow.dev/sandbox/ - javascript sandbox: edit Petri-nets as javascript
