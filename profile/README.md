@@ -1,7 +1,3 @@
-# pFlow-dev
-
-Turning static diagrams into dynamic narratives of change.
-
 ## Tools
 
 We provide tools to build and use Petri-net models in go, js, python, lua, solidity
