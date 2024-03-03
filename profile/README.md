@@ -1,6 +1,6 @@
 ## Tools
 
-We provide tools to build and use Petri-net models in go, js, python, lua, solidity
+We provide tools to build and use Petri-net models in go, js, python, lua, solidity, and rust
 
 - https://pflow.dev/p/ - model editor: build Petri-nets in the browser
 - https://pflow.dev/sandbox/ - javascript sandbox: edit Petri-nets as javascript
