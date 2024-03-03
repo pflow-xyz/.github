@@ -11,7 +11,8 @@ We provide tools to build and use Petri-net models in go, js, python, lua, solid
 ## Reference Specification
 * [pflow-js](https://github.com/pFlow-dev/pflow-js) - a javascript library
   * usable from the browser
-  * considered to the *reference implementation*
+  * this project hosts the *reference implementation*
+  * the repo also hosts a snapshot of the js tools [released via CDN](https://www.jsdelivr.com/package/gh/pflow-dev/pflow-js)
    
 * [metamodel-js](https://github.com/pFlow-dev/metamodel-js) - a typescript library
   * usable from npm
