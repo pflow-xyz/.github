@@ -19,7 +19,7 @@ We provide tools to build and use Petri-net models in go, js, python, lua, solid
 
 ## Current Focus
 
-Advance the state of solidty smart contract development by
+Advance the state of solidity smart contract development by
 providing a library that can be used to create petri-net based
 smart contracts.
 
