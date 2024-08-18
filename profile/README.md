@@ -1,6 +1,6 @@
 ## Tools
 
-We provide tools to build and use Petri-net models in go, js, python, lua, solidity, and rust
+Pflow is a Web3 SDK for Visual State Machines
 
 - https://pflow.xyz/ - build Pflow models in the browser & export as Solidity
 - https://app.pflow.xyz - interact with onchain Pflow Interfaces
