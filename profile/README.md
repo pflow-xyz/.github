@@ -10,7 +10,7 @@ Pflow is a Web3 SDK for Visual State Machines
 
 Advance the state of solidity smart contract development by
 providing a library that can be used to create petri-net based
-smart contracts.
+smart contracts: try the solidity generator now at pflow.xyz
 
 ## Why Petri Nets?
 
