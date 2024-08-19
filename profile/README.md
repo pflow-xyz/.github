@@ -14,7 +14,7 @@ smart contracts.
 
 [![pflow](https://pflow.dev/img/zb2rhkizUC1o2JuvgwhbH1XrLZkdK8x66pP1KR7sWAEw9c5FE.svg)](https://pflow.dev/p/zb2rhkizUC1o2JuvgwhbH1XrLZkdK8x66pP1KR7sWAEw9c5FE/)
 
-Try the solidity generator now at (pflow.xyz)[pflow.xyz]
+Try the solidity generator now at [pflow.xyz](https://pflow.xyz)
 
 ## Why Petri Nets?
 
