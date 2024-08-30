@@ -2,6 +2,8 @@
 
 Pflow is a Web3 SDK for Visual State Machines
 
+The future vision for Pflow: building a hub for evolving composable contracts onchain.
+
 - https://pflow.xyz/ - build Pflow models in the browser & export as Solidity
 - https://app.pflow.xyz - interact with onchain Pflow Interfaces
 - ipns://pflow.eth - app.pflow.xyz hosted on IPFS (WIP)
