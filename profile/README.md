@@ -1,33 +1,31 @@
-## Tools
+### Tools
 
-Pflow is a Web3 SDK for Visual State Machines
+Pflow is a Web3-native SDK for Visual State Machines, powered by Petri nets.
 
-The future vision for Pflow: building a hub for evolving composable contracts onchain.
+Our long-term vision is to become the hub for composable, verifiable onchain logic — where every contract is a model, every model is interactive, and every state transition is inspectable.
 
-- https://pflow.xyz/ - build Pflow models in the browser & export as Solidity
-- https://app.pflow.xyz - interact with onchain Pflow Interfaces
-- ipns://pflow.eth - app.pflow.xyz hosted on IPFS (WIP)
+* 🌐 pflow.xyz – Design models in the browser and export as Solidity
 
-## Current Focus
+* ⚙️ app.pflow.xyz – Interact with onchain interfaces & explore live contracts
 
-Advance the state of solidity smart contract development by
-providing a library that can be used to create petri-net based
-smart contracts.
+* 🧪 ipns://pflow.eth – Fully decentralized hosting via IPFS (in progress)
 
-[![pflow](https://pflow.dev/img/zb2rhkizUC1o2JuvgwhbH1XrLZkdK8x66pP1KR7sWAEw9c5FE.svg)](https://pflow.dev/p/zb2rhkizUC1o2JuvgwhbH1XrLZkdK8x66pP1KR7sWAEw9c5FE/)
+### Current Focus
+We’re advancing smart contract development by introducing Petri-net-based contracts — fully composable, testable, and visualizable.
 
-Try the solidity generator now at [pflow.xyz](https://pflow.xyz)
+* 🔁 Solidity generator available now at pflow.xyz
 
-## Why Petri Nets?
+* 🧩 Gno.land integrations & interactive SVG sandboxes coming soon
 
-Petri nets are a well known and well studied formalism that
-can be used to model a wide variety of systems.
+* 📐 Modeling-as-code: create, verify, and fork contracts like software
 
-Petri nets are a natural fit for model development
-because they are:
+### Why Petri Nets?
+Petri nets are a time-tested formalism used to model complex, concurrent systems. They're ideal for Web3:
 
-* simple
-* expressive
-* composable
-* verifiable
+* 🧠 Intuitive – Simple visual language for devs and non-devs
 
+* 🔍 Verifiable – Every state and transition can be simulated and tested
+
+* 🛠 Composable – Reuse subnets, fork logic, or wrap modules
+
+* 🧬 Expressive – Encode everything from game mechanics to DAO governance
