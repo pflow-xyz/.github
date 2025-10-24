@@ -1,31 +1,17 @@
 ### Tools
 
-Pflow is a Web3-native SDK for Visual State Machines, powered by Petri nets.
+**Pflow** is the foundation for composable, verifiable onchain logic.  
+Our long-term vision is to make every contract a **model**, every model **interactive**, and every state transition **inspectable** — a transparent ecosystem for building and reasoning about decentralized systems.
 
-Our long-term vision is to become the hub for composable, verifiable onchain logic — where every contract is a model, every model is interactive, and every state transition is inspectable.
+* 🌐 **[pflow.xyz](https://pflow.xyz)** — Design, simulate, and analyze Petri-net models directly in the browser.
 
-* 🌐 pflow.xyz – Design models in the browser and export as Solidity
-
-* ⚙️ app.pflow.xyz – Interact with onchain interfaces & explore live contracts
-
-* 🧪 ipns://pflow.eth – Fully decentralized hosting via IPFS (in progress)
-
-### Current Focus
-We’re advancing smart contract development by introducing Petri-net-based contracts — fully composable, testable, and visualizable.
-
-* 🔁 Solidity generator available now at pflow.xyz
-
-* 🧩 Gno.land integrations & interactive SVG sandboxes coming soon
-
-* 📐 Modeling-as-code: create, verify, and fork contracts like software
+---
 
 ### Why Petri Nets?
-Petri nets are a time-tested formalism used to model complex, concurrent systems. They're ideal for Web3:
 
-* 🧠 Intuitive – Simple visual language for devs and non-devs
+Petri nets are a time-tested mathematical formalism for modeling complex, concurrent systems — a perfect fit for the decentralized web.
 
-* 🔍 Verifiable – Every state and transition can be simulated and tested
-
-* 🛠 Composable – Reuse subnets, fork logic, or wrap modules
-
-* 🧬 Expressive – Encode everything from game mechanics to DAO governance
+* 🧠 **Intuitive** – A simple visual language that bridges developers and non-technical users.  
+* 🔍 **Verifiable** – Every state and transition can be traced, simulated, and tested.  
+* 🛠 **Composable** – Build reusable subnets, fork logic, or wrap models as modules.  
+* 🧬 **Expressive** – Capture the dynamics of games, DAOs, or entire protocol economies.
