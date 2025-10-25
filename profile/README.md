@@ -3,7 +3,8 @@
 **Pflow** is the foundation for composable, verifiable onchain logic.  
 Our long-term vision is to make every contract a **model**, every model **interactive**, and every state transition **inspectable** — a transparent ecosystem for building and reasoning about decentralized systems.
 
-* 🌐 **[pflow.xyz](https://pflow.xyz)** — Design, simulate, and analyze Petri-net models directly in the browser.
+* **[pflow.xyz](https://pflow.xyz)** — Design, simulate, and analyze Petri-net models directly in the browser.
+* **[pflow.dev](https://pflow.dev)** - React based petri-net editor supports converting To/From Solidity.
 
 ---
 
