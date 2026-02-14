@@ -12,12 +12,12 @@ Unlike statistical ML models, Petri nets provide **transparent, deterministic lo
 
 | Category | Demos |
 |----------|-------|
-| **Games** | [Tic-Tac-Toe](https://pilot.pflow.xyz/tic-tac-toe/), [ZK Tic-Tac-Toe](https://pilot.pflow.xyz/zk-tic-tac-toe/), [Texas Hold'em](https://pilot.pflow.xyz/texas-holdem/), [Poker Hand](https://pilot.pflow.xyz/poker-hand/), [Dining Philosophers](https://pilot.pflow.xyz/dining-philosophers/) |
-| **Resources** | [Coffee Shop](https://pilot.pflow.xyz/coffeeshop/), [Producer-Consumer](https://pilot.pflow.xyz/producer-consumer/), [Vet Clinic](https://pilot.pflow.xyz/vet-clinic/) |
-| **Workflows** | [Loan Approval](https://pilot.pflow.xyz/loan-approval/), [Hiring Pipeline](https://pilot.pflow.xyz/hiring-pipeline/), [TCP Handshake](https://pilot.pflow.xyz/tcp-handshake/) |
-| **Computation** | [Knapsack](https://pilot.pflow.xyz/knapsack/), [Predator-Prey](https://pilot.pflow.xyz/predator-prey/), [Enzyme Kinetics](https://pilot.pflow.xyz/enzyme-kinetics/) |
-| **Classification** | [Thermostat](https://pilot.pflow.xyz/thermostat/), [Stoplight](https://pilot.pflow.xyz/stoplight/) |
-| **Learning** | [Intro](https://pilot.pflow.xyz/learn/), [Patterns](https://pilot.pflow.xyz/patterns/), [Advanced](https://pilot.pflow.xyz/advanced/), [ZK Intro](https://pilot.pflow.xyz/zk-intro/) |
+| **Tools** | [Petri Net Viewer](https://pilot.pflow.xyz/pflow), [What is a Petri Net?](https://pilot.pflow.xyz/learn/), [Thinking in Petri Nets](https://pilot.pflow.xyz/patterns/), [ODE Simulation & Prediction](https://pilot.pflow.xyz/advanced/), [Zero-Knowledge Proofs](https://pilot.pflow.xyz/zk-intro/) |
+| **Games** (GameNet) | [Tic-Tac-Toe](https://pilot.pflow.xyz/tic-tac-toe/), [ZK Tic-Tac-Toe](https://pilot.pflow.xyz/zk-tic-tac-toe/), [Texas Hold'em](https://pilot.pflow.xyz/texas-holdem/) |
+| **Resources** (ResourceNet) | [Coffee Shop](https://pilot.pflow.xyz/coffeeshop/), [Knapsack](https://pilot.pflow.xyz/knapsack/), [Producer-Consumer](https://pilot.pflow.xyz/producer-consumer/), [Vet Clinic](https://pilot.pflow.xyz/vet-clinic/), [Predator-Prey](https://pilot.pflow.xyz/predator-prey/), [Enzyme Kinetics](https://pilot.pflow.xyz/enzyme-kinetics/) |
+| **Workflows** (WorkflowNet) | [Loan Approval](https://pilot.pflow.xyz/loan-approval/), [Hiring Pipeline](https://pilot.pflow.xyz/hiring-pipeline/) |
+| **Computation** (ComputationNet) | [TCP Handshake](https://pilot.pflow.xyz/tcp-handshake/), [Thermostat](https://pilot.pflow.xyz/thermostat/), [Dining Philosophers](https://pilot.pflow.xyz/dining-philosophers/), [Stoplight](https://pilot.pflow.xyz/stoplight/) |
+| **Classification** (ClassificationNet) | [Poker Hand](https://pilot.pflow.xyz/poker-hand/) |
 
 ---
 
