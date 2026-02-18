@@ -80,4 +80,5 @@ The LLM designs models. Templates produce apps. No LLM-generated code in the out
 
 - **Visual Editor**: [pflow.xyz](https://pflow.xyz)
 - **Interactive Demos**: [pilot.pflow.xyz](https://pilot.pflow.xyz)
+- **Book**: [book.pflow.xyz](https://book.pflow.xyz)
 - **Blog**: [blog.stackdump.com](https://blog.stackdump.com)
