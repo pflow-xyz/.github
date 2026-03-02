@@ -49,7 +49,13 @@ Unlike statistical ML models, Petri nets provide **transparent, deterministic lo
 
 ### AI-Assisted Development
 
-[petri-pilot](https://github.com/pflow-xyz/petri-pilot) provides **MCP (Model Context Protocol)** tools — AI assistants like Claude can design models and generate complete applications:
+[petri-pilot](https://github.com/pflow-xyz/petri-pilot) provides **MCP (Model Context Protocol)** tools — AI assistants like Claude can design models and generate complete applications.
+
+**Connect your agent to pflow tools via [Smithery](https://smithery.ai/servers/stackdump/pflow-pilot):**
+
+```
+curl https://smithery.ai/skill.md and connect to stackdump/pflow-pilot using smithery mcp add stackdump/pflow-pilot
+```
 
 ```
 petri_validate    →  Check model structure
