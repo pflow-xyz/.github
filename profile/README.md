@@ -1,79 +1,82 @@
-## pflow — Visual Editor for Petri Nets
+## pflow — One Petri Net, Several Rigorous Lenses
 
-**One abstraction for state machines, resource flows, game mechanics, and token standards.**
+**Declare a net — places, transitions, rates — and simulate it, fit it, and verify it without leaving the same model.**
 
-Build models you can simulate, analyze, and generate code from.
+Arc topology *is* the rate law: a double arc fires quadratically with concentration, a weighted arc scales a flow. Start with ODE — the fastest way to watch a model move — then reach for exact stochastic simulation, parameter fitting, or formal verification against the same declared net.
 
 **[Open Editor](https://pflow.xyz)** | **[Read the Book](https://book.pflow.xyz)**
 
 ---
 
-### Draw → Generate → Prove
+### Model → Simulate → Fit → Verify
 
-| Draw | Generate | Prove |
-|------|----------|-------|
-| Build state machines visually. Places, transitions, arcs — stored as JSON-LD with content-addressed identity. | AI constrained by the model produces correct code. The topology defines what's valid — the LLM fills in the implementation. | ZK circuits verify every transition without revealing state. Groth16 proofs from net topology. |
-| [pflow.xyz](https://pflow.xyz) | [pilot.pflow.xyz](https://pilot.pflow.xyz) | [Read about ZK →](https://blog.stackdump.com/posts/zk-petri-nets) |
+| Model | Simulate | Fit | Verify |
+|-------|----------|-----|--------|
+| Places, transitions, weighted arcs — stored as JSON-LD with content-addressed identity. Arc topology *is* the rate law: a double arc makes a transition fire quadratically with concentration. | Tsit5/RK45 ODE relaxation, exact Gillespie SSA, and chemical-Langevin SDE — three semantics from one declaration. | Gradient-free and gradient-based (forward + adjoint sensitivity) parameter fitting. Every fitted value is still a transition rate. | Reachability, P/T-invariants, and declarative property checking with proved/refuted/unknown verdicts and counterexamples. |
+| [pflow.xyz](https://pflow.xyz) | [go-pflow/solver](https://github.com/pflow-xyz/go-pflow/tree/main/solver) | [go-pflow/learn](https://github.com/pflow-xyz/go-pflow/tree/main/learn) | [go-pflow/verify](https://github.com/pflow-xyz/go-pflow/tree/main/verify) |
 
-Places hold tokens. Transitions move them. Arcs define the rules.
-From coffee shops to poker games to blockchain bridges — the same formal structure, the same tools, the same proofs.
+Same declared model, byte-exact across languages: JS ([pflow.xyz](https://pflow.xyz)), Go ([go-pflow](https://github.com/pflow-xyz/go-pflow)), Rust ([pflow-rs](https://github.com/pflow-xyz/pflow-rs)), and Julia ([pflow-jl](https://github.com/pflow-xyz/pflow-jl), bridged to [AlgebraicPetri.jl](https://github.com/AlgebraicJulia/AlgebraicPetri.jl)).
 
 ---
 
-### Example Models
+### Start here: ODE Demos
 
-| Category | Demos |
-|----------|-------|
-| **Tools** | [Petri Net Viewer](https://pilot.pflow.xyz/pflow), [What is a Petri Net?](https://pilot.pflow.xyz/learn/), [Thinking in Petri Nets](https://pilot.pflow.xyz/patterns/), [ODE Simulation & Prediction](https://pilot.pflow.xyz/advanced/), [Zero-Knowledge Proofs](https://pilot.pflow.xyz/zk-intro/), [Code to Flow](https://pilot.pflow.xyz/code-to-flow/) |
-| **Games** | [Tic-Tac-Toe](https://pilot.pflow.xyz/tic-tac-toe/), [ZK Tic-Tac-Toe](https://pilot.pflow.xyz/zk-tic-tac-toe/), [Texas Hold'em](https://pilot.pflow.xyz/texas-holdem/) |
-| **Resources** | [Coffee Shop](https://pilot.pflow.xyz/coffeeshop/), [Knapsack](https://pilot.pflow.xyz/knapsack/), [Producer-Consumer](https://pilot.pflow.xyz/producer-consumer/), [Vet Clinic](https://pilot.pflow.xyz/vet-clinic/), [Predator-Prey](https://pilot.pflow.xyz/predator-prey/), [Enzyme Kinetics](https://pilot.pflow.xyz/enzyme-kinetics/) |
-| **Workflows** | [Loan Approval](https://pilot.pflow.xyz/loan-approval/), [Hiring Pipeline](https://pilot.pflow.xyz/hiring-pipeline/) |
-| **Computation** | [TCP Handshake](https://pilot.pflow.xyz/tcp-handshake/), [Thermostat](https://pilot.pflow.xyz/thermostat/), [Dining Philosophers](https://pilot.pflow.xyz/dining-philosophers/), [Stoplight](https://pilot.pflow.xyz/stoplight/) |
-| **Classification** | [Poker Hand](https://pilot.pflow.xyz/poker-hand/) |
+| Demo | What it shows | Link |
+|------|----------------|------|
+| **Predator-Prey** | Lotka-Volterra dynamics, continuous simulation | [Run](https://pilot.pflow.xyz/predator-prey/) |
+| **Enzyme Kinetics** | Michaelis-Menten, biochemical modeling | [Run](https://pilot.pflow.xyz/enzyme-kinetics/) |
+| **Knapsack** | Optimization via mass-action kinetics | [Run](https://pilot.pflow.xyz/knapsack/) |
+| **ODE Simulation & Prediction** | Walkthrough of the solver itself | [Run](https://pilot.pflow.xyz/advanced/) |
+
+ODE is the fastest way to see a model move, not the whole toolkit — the same declared net also drives exact stochastic simulation, parameter fitting, and formal verification (see the table above). More examples — discrete state machines, workflows, ZK proofs, games — live one level down, in the individual project READMEs below.
 
 ---
 
 ### Projects
 
-| Repository | Description |
-|------------|-------------|
-| **[pflow-xyz](https://github.com/pflow-xyz/pflow-xyz)** | Visual editor & ODE simulator — **Draw** |
-| **[go-pflow](https://github.com/pflow-xyz/go-pflow)** | Go library — simulation, process mining, ZK proofs, code generation |
-| **[petri-pilot](https://github.com/pflow-xyz/petri-pilot)** | MCP server + deterministic full-stack app generation — **Generate** |
-| **[book-pflow-xyz](https://github.com/pflow-xyz/book-pflow-xyz)** | "Petri Nets as a Universal Abstraction" — practitioner's guide |
+| Repository | Purpose |
+|------------|---------|
+| **[go-pflow](https://github.com/pflow-xyz/go-pflow)** | Core Go library. ODE/SSA/SDE engines, parameter fitting, reachability & verification. The reference implementation. |
+| **[pflow-xyz](https://github.com/pflow-xyz/pflow-xyz)** | Visual editor + browser ODE simulator, held byte-exact to go-pflow. |
+| **[pflow-rs](https://github.com/pflow-xyz/pflow-rs)** | Rust port — ODE solvers, token-model DSL, ZK provers. |
+| **[pflow-jl](https://github.com/pflow-xyz/pflow-jl)** | Julia port, bridged to AlgebraicPetri.jl for categorical composition and mass-action ODEs. |
+| **[petri-pilot](https://github.com/pflow-xyz/petri-pilot)** | MCP server for AI-assisted model design + deterministic app generation from a validated model. |
+| **[book-pflow-xyz](https://github.com/pflow-xyz/book-pflow-xyz)** | "Petri Nets as a Universal Abstraction" — practitioner's guide. |
 
 ```
-Draw (pflow.xyz) ──▶ Generate (go-pflow + petri-pilot) ──▶ Prove (ZK circuits)
-      ▲                                                            │
-      └────────────────────────────────────────────────────────────┘
+Model (pflow.xyz) ──▶ go-pflow (ODE · SSA · SDE · fit · verify) ──▶ pflow-rs / pflow-jl (byte-exact ports)
+                                        │
+                                        ▼
+                              petri-pilot (app generation, MCP)
 ```
 
 ---
 
-### AI-Assisted Development (MCP)
+### AI-Assisted Model Design (MCP)
 
-[petri-pilot](https://github.com/pflow-xyz/petri-pilot) provides **MCP (Model Context Protocol)** tools — AI assistants like Claude can design models and generate complete applications.
+[petri-pilot](https://github.com/pflow-xyz/petri-pilot) exposes MCP tools so an agent can design, simulate and verify a model directly:
 
-**Connect your agent via [Smithery](https://smithery.ai/servers/stackdump/pflow-pilot):**
+```
+claude mcp add --transport http petri-pilot https://pilot.pflow.xyz/mcp
+```
 
 ```
 petri_validate    →  Check model structure
-petri_simulate    →  Fire transitions, trace state
+petri_simulate    →  Fire transitions, trace state (ODE/SSA/SDE)
 petri_analyze     →  Reachability, deadlocks, liveness
 petri_codegen     →  Generate Go backend
-petri_frontend    →  Generate ES modules UI
 petri_application →  Full-stack app from high-level spec
 petri_extend      →  Modify existing models
 ```
 
-The LLM designs models. Templates produce apps. No LLM-generated code in the output.
+The LLM designs the net. The engines decide what it does. No LLM-generated math in the output.
 
 ---
 
 ### Links
 
 - **Visual Editor**: [pflow.xyz](https://pflow.xyz)
+- **ODE Engine**: [go-pflow](https://github.com/pflow-xyz/go-pflow)
 - **Demos**: [pilot.pflow.xyz](https://pilot.pflow.xyz)
-- **Code to Flow**: [pilot.pflow.xyz/code-to-flow](https://pilot.pflow.xyz/code-to-flow/)
 - **Book**: [book.pflow.xyz](https://book.pflow.xyz)
 - **Blog**: [blog.stackdump.com](https://blog.stackdump.com)
